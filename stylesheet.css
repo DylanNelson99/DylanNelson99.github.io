@@ -200,17 +200,17 @@ h1 {
 
 .social-media-icons ul li a:hover {
     transform: translate(0, -10px);
-	color: black;
+	
 }
 
 .social-media-icons ul li:nth-child(1) a:hover {
     background-color: #55acee;
-	color: black;
+	
 }
 
 .social-media-icons ul li:nth-child(2) a:hover {
     background-color: #6f42c1;
-	color: black;
+	
 }
 
 
