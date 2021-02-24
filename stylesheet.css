@@ -195,6 +195,7 @@ h1 {
     text-align: center;
     transition: .6s;
     box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+	color: black;
 }
 
 .social-media-icons ul li a:hover {
