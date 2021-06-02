@@ -28,14 +28,18 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: Orange;
 }
 
 
 /* hero button */
 
 .hero-text a {
-    color: white;
+    color: Orange;
+}
+
+.hero-text a:hover {
+color : orange;	
 }
 
 
@@ -78,6 +82,7 @@ html {
 .educationResults h1 {
     text-align: center;
 }
+
 
 /* skills CSS */
 
