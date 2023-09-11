@@ -98,6 +98,22 @@
                 <p> </p>
             </div>
             <div class="row">
+			               <div class="col-md-4">
+                    <div class="card text-center">
+                        <a href="https://www.colaistechiarain.com/" target="_blank">
+                            <img src="images/peoplecert.jpg" alt="Colaiste Chiarain" class="class-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">PeopleCert</h5>
+                            <p>June 2023</p>
+                            <p>PRINCE2 Foundation (Pass)</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:100%">100%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+			
 			                <div class="col-md-4">
                     <div class="card text-center">
                         <a href="https://www.credential.net/ba89d842-f795-4aaa-a23e-50fb355b944d#gs.s4pero" target="_blank">
@@ -130,23 +146,7 @@
                     </div>
                 </div>
 				
-				
-
-               <div class="col-md-4">
-                    <div class="card text-center">
-                        <a href="https://www.colaistechiarain.com/" target="_blank">
-                            <img src="images/cc.jpg" alt="Colaiste Chiarain" class="class-img-top">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Colaiste Chiarain - Leixlip</h5>
-                            <p>2012 - 2017</p>
-                            <p>Completed Leaving Certificate. Results can be given on request.</p>
-                            <div class="progress">
-                                <div class="progress-bar" style="width:100%">100%</div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+			
         <br>
         <br>
  
@@ -659,31 +659,29 @@
                     <!-- Information about projects -->
 
                     <div id="projectCard" class="card">
-                        <div class="card-header">EirGrid: ODI (Oracle Data Integrator) Project</div>
+                        <div class="card-header">EirGrid: European Awareness System</div>
                         <div class="card-body">
                             <p>Issue / Description:</p>
                             <ul>
-	<li> A specific program did not run and it end up not updating over the whole weekend and there was no way for anyone to know it had failed.</li>
-	<li> My job was to create an alert system using ODI to monitor wether it updated or not. It ran and checked every 60 minutes.</li>
-	<li> The 2 outcomes where that is will have updated and the timer for it to check again restarted or if it didnt update which then causes:</li>
-	<li> an email alert system to be sent out to 2 teams, one of which was the business team and the other was 24/7 team just incase it was out of hours.</li>
-	<li> It also included a fail safe where if not only did the specific program didnt run but also my program didnt(I.e CONNECTION TO DATABASE LOST) that</li>
-	<li> it would send an email to our team to fix it.</li>
+	<li> This project was done to upgrade and add extra resilience to the current system due to the current system breaking down.</li>
+	<li> I had to create the documentation for this and bring it to Demand Management (Project Funding) and put it through capital approval.</li>
+	<li> Once that was received I worked alongside the data center team to purchase the hardware from our external vendor.</li>
+	<li> This was deployed in two of our sites in dublin (Office and backup DC)</li>
+	<li> Once that was complete the servers were racked and the VM’s were built. Then we had UAT testing from the Control Centre staff.</li>
                             </ul>
                         </div>
                         <div class="card-footer">
                             <p>Challenges</p>
                             <ul>
-                                <li>Time Management.</li>
-                                <li>Difficulty getting approval for access to all the databases needed.</li>
-                                <li>Learning the new program style.</li>
+                                <li>Project funding took longer than expected.</li>
+                                <li>Staff availability </li>
+                                
                             </ul>
                             <br>
                             <p>Technologies & Tools Used:</p>
                             <ul>
-                                <li>ODI</li>
-                                <li>SQL Developer</li>                   
-                                
+                                <li>MS Projects</li>
+                                <li>Hyper V (VM)</li>							
                             </ul>
 
                         </div>
@@ -691,6 +689,41 @@
 					<br>
                     <br>
                     <br>
+					   <div id="projectCard" class="card">
+                        <div class="card-header">EirGrid: Exchange and Mobile Migration</div>
+                        <div class="card-body">
+                            <p>Description</p>
+                            <ul>
+                                <li>Managed a project that provided all staff with work mobile phones to align with our hybrid model across our 2 sites (Dublin and Belfast).</li>
+                                <li>Daily meetings with the deployment team each morning.</li>
+                                <li>Prep work evening before by having all bookings sent to the WSO team to migrate user accounts to exchange online.</li>
+                                <li> Managed stock and booking system for Appointments.</li>
+                                <li>Dealt and communicate with external vendors.</li>
+								<li> Completed Bi-weekly status reports to Management and PMO. Along with smaller weekly reports to my Programme Manager. </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p>Challenges</p>
+                            <ul>
+                                <li>Stock lead time management.</li>
+                                <li>Standardizing staff phones to all iPhones.</li>
+                                <li>Managing cross offices phone setups.</li>
+                            </ul>
+                            <br>
+                            <p>Technologies Involved</p>
+                            <ul>
+                                <li>Apple Business Manager</li>
+                                <li>MS Intune</li>
+                                <li>MS Bookings</li>
+								<li>MS Projects </li>
+                            </ul>
+
+                        </div>
+                    </div>
+				    <br>
+                    <br>
+                    <br>
+					
                     <div id="projectCard" class="card">
                         <div class="card-header">Expense Tracker : Android mobile App(4th Year)</div>
                         <div class="card-body">
@@ -724,46 +757,8 @@
 
                         </div>
                     </div>
-                    <br>
-                    <br>
-                    <br>
-                    <div id="projectCard" class="card">
-                        <div class="card-header">Vintage Vinyl Store (E-commerce Website)(2nd Year)</div>
-                        <div class="card-body">
-                            <p>Description</p>
-                            <ul>
-                                <li>A group of 3 involving the creation of an E-commerce website system.</li>
-                                <li>Development included creation of an account, logging in and making purchases, using a cart with visa payment option.</li>
-                                <li>Creation of Admin accounts to edit the websites content and C.R.U.D ability.
-                                </li>
-                                <li>Agile environment which included reporting to supervisor each week on the project development.
-                                </li>
-                                <li>Creation of database to allow for uploading of websites stock.</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer">
-                            <p>Challenges</p>
-                            <ul>
-                                <li>Time Management</li>
-                                <li>Design plan and UI choices</li>
-                                <li>Content structure</li>
-                            </ul>
-                            <br>
-                            <p>Technologies Involved</p>
-                            <ul>
-                                <li>Play Framework</li>
-                                <li>Github</li>
-                                <li>Azure DevOps</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>SQL Developer</li>
-                                <li>Stripe (external payment built into cart)</li>
-                                <li>Oracle VM</li>
-                                <li>Javascript</li>
-                            </ul>
 
-                        </div>
-                    </div>
+
                 </div>
             </div>
     </section>
